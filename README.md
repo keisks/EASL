@@ -1,7 +1,7 @@
 
 # Efficient Annotation of Scalar Labels (EASL)
 
-Last update: March 6th, 2018
+Last update: May 14, 2018
 
 [link to the paper (in preparation)]()
 
