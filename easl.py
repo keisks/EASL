@@ -33,13 +33,13 @@ class EASL:
             self.items[row["id"]] = row
 
     def saveItem(self, newModelPath):
-        csvWriter = csv.DictWriter(open(newModelPath, 'w'), fieldnames=self.headerModel)
+        csvWriter = csv.DictWriter(open(newModelPath, 'w', newline=''), fieldnames=self.headerModel)
         csvWriter.writeheader()
         for row in self.items.values():
             csvWriter.writerow(row)
 
     def generateHits(self, filePath, hitItems):
-        csvWriter = csv.DictWriter(open(filePath, 'w'), fieldnames=self.headerHits)
+        csvWriter = csv.DictWriter(open(filePath, 'w', newline=''), fieldnames=self.headerHits)
         csvWriter.writeheader()
 
         for itemID, compareIDs in hitItems.items():
