@@ -1,10 +1,9 @@
 
 # Efficient Annotation of Scalar Labels (EASL)
 
-Last update: May 14, 2018
+Last update: June 5, 2018
 
-[link to the paper (in preparation)]()
-
+[preprint](https://arxiv.org/abs/1806.01170)
 
 - - - 
 ## Pre-requisites
